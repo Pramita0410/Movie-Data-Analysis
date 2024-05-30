@@ -1,0 +1,144 @@
+{
+  "itemId" : "_r4qC4IsyEe6G_q843jGClA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_zSt2IIsxEe6G_q843jGClA",
+    "parameterList" : [ {
+      "id" : "_zS3nIYsxEe6G_q843jGClA",
+      "name" : "newdata_title_basic_FilePath"
+    }, {
+      "id" : "_zS3nIosxEe6G_q843jGClA",
+      "name" : "newdata_title_basic_Encoding"
+    }, {
+      "id" : "_zS3nI4sxEe6G_q843jGClA",
+      "name" : "newdata_title_basic_XPathQuery"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_KQ34AIpCEe624-5VvMURFw",
+    "parameterList" : [ {
+      "id" : "_KRUj9opCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_AdditionalParams"
+    }, {
+      "id" : "_KRUj9YpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Port"
+    }, {
+      "id" : "_KRUj84pCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Login"
+    }, {
+      "id" : "_KRUj8opCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Database"
+    }, {
+      "id" : "_KRUj8YpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Server"
+    }, {
+      "id" : "_KRUj9IpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Password"
+    } ]
+  }, {
+    "contextName" : "Test",
+    "repoId" : "_zSt2IIsxEe6G_q843jGClA",
+    "parameterList" : [ {
+      "id" : "_zS3nKYsxEe6G_q843jGClA",
+      "name" : "newdata_title_basic_FilePath"
+    }, {
+      "id" : "_zS3nKosxEe6G_q843jGClA",
+      "name" : "newdata_title_basic_Encoding"
+    }, {
+      "id" : "_zS3nK4sxEe6G_q843jGClA",
+      "name" : "newdata_title_basic_XPathQuery"
+    } ]
+  }, {
+    "contextName" : "Test",
+    "repoId" : "_KQ34AIpCEe624-5VvMURFw",
+    "parameterList" : [ {
+      "id" : "_KRUkBIpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_AdditionalParams"
+    }, {
+      "id" : "_KRUkA4pCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Port"
+    }, {
+      "id" : "_KRUkAYpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Login"
+    }, {
+      "id" : "_KRUkAIpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Database"
+    }, {
+      "id" : "_KRUj_4pCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Server"
+    }, {
+      "id" : "_KRUkAopCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Password"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "_zSt2IIsxEe6G_q843jGClA",
+    "parameterList" : [ {
+      "id" : "_zS3nLYsxEe6G_q843jGClA",
+      "name" : "newdata_title_basic_FilePath"
+    }, {
+      "id" : "_zS3nLosxEe6G_q843jGClA",
+      "name" : "newdata_title_basic_Encoding"
+    }, {
+      "id" : "_zS3nL4sxEe6G_q843jGClA",
+      "name" : "newdata_title_basic_XPathQuery"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "_KQ34AIpCEe624-5VvMURFw",
+    "parameterList" : [ {
+      "id" : "_KRUkC4pCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_AdditionalParams"
+    }, {
+      "id" : "_KRUkCopCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Port"
+    }, {
+      "id" : "_KRUkCIpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Login"
+    }, {
+      "id" : "_KRUkB4pCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Database"
+    }, {
+      "id" : "_KRUkBopCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Server"
+    }, {
+      "id" : "_KRUkCYpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Password"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_zSt2IIsxEe6G_q843jGClA",
+    "parameterList" : [ {
+      "id" : "_zS3nJYsxEe6G_q843jGClA",
+      "name" : "newdata_title_basic_FilePath"
+    }, {
+      "id" : "_zS3nJosxEe6G_q843jGClA",
+      "name" : "newdata_title_basic_Encoding"
+    }, {
+      "id" : "_zS3nJ4sxEe6G_q843jGClA",
+      "name" : "newdata_title_basic_XPathQuery"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_KQ34AIpCEe624-5VvMURFw",
+    "parameterList" : [ {
+      "id" : "_KRUj_YpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_AdditionalParams"
+    }, {
+      "id" : "_KRUj_IpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Port"
+    }, {
+      "id" : "_KRUj-opCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Login"
+    }, {
+      "id" : "_KRUj-YpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Database"
+    }, {
+      "id" : "_KRUj-IpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Server"
+    }, {
+      "id" : "_KRUj-4pCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Password"
+    } ]
+  } ]
+}

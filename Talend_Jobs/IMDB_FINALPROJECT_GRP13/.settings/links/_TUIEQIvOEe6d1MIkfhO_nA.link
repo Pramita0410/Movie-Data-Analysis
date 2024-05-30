@@ -1,0 +1,26 @@
+{
+  "itemId" : "_TUIEQIvOEe6d1MIkfhO_nA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_KQ34AIpCEe624-5VvMURFw",
+    "parameterList" : [ {
+      "id" : "_KRUj9opCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_AdditionalParams"
+    }, {
+      "id" : "_KRUj9YpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Port"
+    }, {
+      "id" : "_KRUj84pCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Login"
+    }, {
+      "id" : "_KRUj8opCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Database"
+    }, {
+      "id" : "_KRUj8YpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Server"
+    }, {
+      "id" : "_KRUj9IpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Password"
+    } ]
+  } ]
+}

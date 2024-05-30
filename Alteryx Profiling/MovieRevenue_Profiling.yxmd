@@ -1,0 +1,2204 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avatar.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>True</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Avatar.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="title" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avatar.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="234" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="390" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_8fc8e7df2d7fe340b85c5943788eb3d6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="390" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_92afac564096db448f6309966ed108a0~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="390" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_47a52a26d6e2c546b8e04d70ea264ce3~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="390" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_99ae45eb59b2bb429b5a1e68afd88acb~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="234" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">tconst=True,title=True,Date=True,Rank=True,Gross=True,%YD=True,%LW=True,Theaters=True,Per Theater=True,Total Gross=True,Days=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>True</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="title" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Age of Ultron (2015).tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="222" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_4a52b17bf1daf4499cd1da1e8ea54e24~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_7919642c0d3ff14c81b5789c421ac8ce~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_e0af55a35bbd91499a8c3bb30780b0cb~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_57a1301808ad0b4696973c0bbd70b92f~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings>
+        <Position x="222" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">tconst=True,title=True,Date=True,Rank=True,Gross=True,%YD=True,%LW=True,Theaters=True,Per Theater=True,Total Gross=True,Days=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>True</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="title" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Endgame (2019).tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="222" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_8a26e44fa5c4eb47854c9f553b8dc84e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_a7ad7d7f7dc478499ffd2fab15eecbdd~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_a0f60d16a6eae84db747a93401e281af~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_5d41093ec6eed24eb160c275fa71a9ce~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings>
+        <Position x="222" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">tconst=True,title=True,Date=True,Rank=True,Gross=True,%YD=True,%LW=True,Theaters=True,Per Theater=True,Total Gross=True,Days=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="942" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>True</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="title" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Avengers_ Infinity War (2018).tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="222" y="942" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="942" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_5c2eeeb27cc1ca44ae716e2a29a3cf3b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="1002" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_adf7255e9689594a804cedd0dd94f6a9~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_eee1551db1b2f84ea35dca208e8d1b13~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="1122" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_da1e170fba95c440819bf69224fa3f27~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings>
+        <Position x="222" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">tconst=True,title=True,Date=True,Rank=True,Gross=True,%YD=True,%LW=True,Theaters=True,Per Theater=True,Total Gross=True,Days=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="1230" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Black Panther (2018).tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>True</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Black Panther (2018).tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="title" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Black Panther (2018).tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="222" y="1230" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="1230" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_be9fdc838aed454090d5d4ac46e60b6a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="1302" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_5e0331349a00ee46997bf5da9cadfb7f~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="1350" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_4916644e7af48247b054236c36c30c67~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="1422" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_059809a2cfe73d4fa59a49f9658073f4~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings>
+        <Position x="222" y="1350" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">tconst=True,title=True,Date=True,Rank=True,Gross=True,%YD=True,%LW=True,Theaters=True,Per Theater=True,Total Gross=True,Days=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="1554" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>True</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tcont" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="title" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Spider-Man No Way Home.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="222" y="1554" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="1554" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_cc783bd3e5397547a680a9fe7fc75793~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="1626" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_ffdd90c825476d4989cd7835e99b7c73~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="1674" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_bbf5db92d5a27c42bd0f489e41d30045~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="1734" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_9ca4d96a4f3a094fabc70b0a60ab30ce~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings>
+        <Position x="222" y="1674" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">tcont=True,title=True,Date=True,Rank=True,Gross=True,%YD=True,%LW=True,Theaters=True,Per Theater=True,Total Gross=True,Days=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="1878" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>True</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="title" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Star Wars_ Episode VII - The Force Awakens.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="222" y="1878" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="1878" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_cb77c2a8c66a9143810cc9a0ed653904~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="1950" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_b8a48213da1e5f4e8b1ad3fe25806585~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="1998" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_205855676fe6bf4dae03f1f99fb70c74~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="2070" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_21756dda6149984fa29a419d7475f0f9~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings>
+        <Position x="222" y="1998" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">tconst=True,title=True,Date=True,Rank=True,Gross=True,%YD=True,%LW=True,Theaters=True,Per Theater=True,Total Gross=True,Days=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="2178" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - The Avengers.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>True</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - The Avengers.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="title" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - The Avengers.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="222" y="2178" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="2178" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_05b59373d40e2c489b6a1045fb3145c4~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="2250" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_532728e1d53bd44780364e9227e4caf1~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="2298" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_38ef3aaf8b88d84c8d97ab0c8f480dda~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="2370" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_1181482a2e65ea4b892db22e52a6f0a6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings>
+        <Position x="222" y="2298" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">tconst=True,title=True,Date=True,Rank=True,Gross=True,%YD=True,%LW=True,Theaters=True,Per Theater=True,Total Gross=True,Days=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="2490" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Titanic.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>True</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>The Numbers - Domestic Box Office - Titanic.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="tconst" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="title" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="Date" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="Rank" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="%YD" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="%LW" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="Theaters" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="Per Theater" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="Total Gross" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+            <Field name="Days" size="254" source="File: D:\dadabi\Final Project\IMDB\IMDB\TheNumbers - Moviewise Daily BoxOffice Revenues\The Numbers - Domestic Box Office - Titanic.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="222" y="2490" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="2490" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_b47c78cbdcf68143963929d3a23190b6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="2562" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_0d9cfa3a88aefa4a9097ac98f4e4712f~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="2610" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_919fcb2e03cfb3448e53e9c99199611b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="2682" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Shreyasi\AppData\Local\Temp\Engine_18064_916012a255024f4187e1cd68f3d8ef8f_\Engine_18064_5b5e6a95764a3540a2f279c0fc7ea2a5~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings>
+        <Position x="222" y="2610" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">tconst=True,title=True,Date=True,Rank=True,Gross=True,%YD=True,%LW=True,Theaters=True,Per Theater=True,Total Gross=True,Days=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="210" y="6" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Avatar</Text>
+          <Font name="Arial" size="12" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="138" y="294" width="228" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Avengers - Age of Ultron</Text>
+          <Font name="Arial" size="12" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="150" y="594" width="204" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Avengers Endgame</Text>
+          <Font name="Arial" size="12" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="138" y="894" width="228" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Avengers - Infinity War</Text>
+          <Font name="Arial" size="12" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="174" y="1194" width="144" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Black Panther</Text>
+          <Font name="Arial" size="12" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="126" y="1506" width="264" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Spider - Man No Way Home</Text>
+          <Font name="Arial" size="12" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="114" y="1818" width="276" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Star Wars Episode VII - The Force Awakens</Text>
+          <Font name="Arial" size="12" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="150" y="2142" width="192" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The Avengers</Text>
+          <Font name="Arial" size="12" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="198" y="2454" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Titanic</Text>
+          <Font name="Arial" size="12" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Reports" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Interactive" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="15" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Reports" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Interactive" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="22" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Reports" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Interactive" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="29" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Reports" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Interactive" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="36" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Reports" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Interactive" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="43" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Reports" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Interactive" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="50" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Reports" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Interactive" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="57" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Reports" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Interactive" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="64" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Reports" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Interactive" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>MovieRevenue_Profiling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="307a3647-a771-4cec-85cc-65554e7aa113" />
+      <Telemetry>
+        <PreviousWorkflowId value="6e618a6a-1c04-4dd7-ab74-428e85f930ff" />
+        <OriginWorkflowId value="6e618a6a-1c04-4dd7-ab74-428e85f930ff" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

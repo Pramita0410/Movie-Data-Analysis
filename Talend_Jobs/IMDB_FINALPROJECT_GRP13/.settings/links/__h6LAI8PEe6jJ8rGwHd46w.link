@@ -1,0 +1,92 @@
+{
+  "itemId" : "__h6LAI8PEe6jJ8rGwHd46w",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_KQ34AIpCEe624-5VvMURFw",
+    "parameterList" : [ {
+      "id" : "_KRUj8YpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Server"
+    }, {
+      "id" : "_KRUj8opCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Database"
+    }, {
+      "id" : "_KRUj84pCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Login"
+    }, {
+      "id" : "_KRUj9IpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Password"
+    }, {
+      "id" : "_KRUj9YpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Port"
+    }, {
+      "id" : "_KRUj9opCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "Test",
+    "repoId" : "_KQ34AIpCEe624-5VvMURFw",
+    "parameterList" : [ {
+      "id" : "_KRUj_4pCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Server"
+    }, {
+      "id" : "_KRUkAIpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Database"
+    }, {
+      "id" : "_KRUkAYpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Login"
+    }, {
+      "id" : "_KRUkAopCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Password"
+    }, {
+      "id" : "_KRUkA4pCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Port"
+    }, {
+      "id" : "_KRUkBIpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "_KQ34AIpCEe624-5VvMURFw",
+    "parameterList" : [ {
+      "id" : "_KRUkBopCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Server"
+    }, {
+      "id" : "_KRUkB4pCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Database"
+    }, {
+      "id" : "_KRUkCIpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Login"
+    }, {
+      "id" : "_KRUkCYpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Password"
+    }, {
+      "id" : "_KRUkCopCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Port"
+    }, {
+      "id" : "_KRUkC4pCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_KQ34AIpCEe624-5VvMURFw",
+    "parameterList" : [ {
+      "id" : "_KRUj-IpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Server"
+    }, {
+      "id" : "_KRUj-YpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Database"
+    }, {
+      "id" : "_KRUj-opCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Login"
+    }, {
+      "id" : "_KRUj-4pCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Password"
+    }, {
+      "id" : "_KRUj_IpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_Port"
+    }, {
+      "id" : "_KRUj_YpCEe624-5VvMURFw",
+      "name" : "IMDB_MySQL_Connection_AdditionalParams"
+    } ]
+  } ]
+}

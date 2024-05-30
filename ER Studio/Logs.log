@@ -1,0 +1,36 @@
+ER/Studio Data Architect Generate Database Facility Messages
+ 
+Script: D:\dadabi\Final Project\ER Studio\IMDB_PhysicalModel.sql
+ 
+Date/Time: Thu Nov 30 22:53:58 2023
+--------------------------------------------------------
+
+Generating Dependencies ...
+   Dependency Sql
+
+Generating Tables ...
+
+Generating Views ...
+
+Generating Indexes ...
+
+Generating Foreign Keys ...
+   Dim_Crew
+   Dim_Date
+   DIM_Genre
+   Dim_Movie_Title
+   Dim_Person
+   Dim_Person_KnownFor
+   Dim_Person_Profession
+   Dim_TitleRegion
+   Fct_IMDB
+   FCT_Movie_Earnings
+   Fct_Ratings
+
+Generating Model Post SQL ...
+   Model Post Sql
+Ending time: Thu Nov 30 22:53:59 2023
+ 
+ 
+Code Generation Complete
+ 

@@ -1,0 +1,26 @@
+{
+  "itemId" : "_edbc8ItrEe6vWNNV6oLg6g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_ohQ5YItrEe6vWNNV6oLg6g",
+    "parameterList" : [ {
+      "id" : "_oh814YtrEe6vWNNV6oLg6g",
+      "name" : "IMDB_MySQL_Connection_Pramita_Password"
+    }, {
+      "id" : "_oh814otrEe6vWNNV6oLg6g",
+      "name" : "IMDB_MySQL_Connection_Pramita_Login"
+    }, {
+      "id" : "_oh8144trEe6vWNNV6oLg6g",
+      "name" : "IMDB_MySQL_Connection_Pramita_Database"
+    }, {
+      "id" : "_oh815ItrEe6vWNNV6oLg6g",
+      "name" : "IMDB_MySQL_Connection_Pramita_Server"
+    }, {
+      "id" : "_oh815YtrEe6vWNNV6oLg6g",
+      "name" : "IMDB_MySQL_Connection_Pramita_AdditionalParams"
+    }, {
+      "id" : "_oh815otrEe6vWNNV6oLg6g",
+      "name" : "IMDB_MySQL_Connection_Pramita_Port"
+    } ]
+  } ]
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_3cpHgIpCEe624-5VvMURFw">
+    <contextParameter comment="" name="Movie_Avatar_Header" prompt="Movie_Avatar_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_3cpHgYpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_File" prompt="Movie_Avatar_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="D:/dadabi/Final Project/IMDB/IMDB/TheNumbers - Moviewise Daily BoxOffice Revenues/The Numbers - Domestic Box Office - Avatar.tsv" xmi:id="_3cpHgopCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_FieldSeparator" prompt="Movie_Avatar_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_3cpHg4pCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_Encoding" prompt="Movie_Avatar_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="US-ASCII" xmi:id="_3cpHhIpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_RowSeparator" prompt="Movie_Avatar_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_3cpHhYpCEe624-5VvMURFw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Development" xmi:id="_3cpHhopCEe624-5VvMURFw">
+    <contextParameter comment="" name="Movie_Avatar_Header" prompt="Movie_Avatar_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_3cpHh4pCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_File" prompt="Movie_Avatar_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="D:/dadabi/Final Project/IMDB/IMDB/TheNumbers - Moviewise Daily BoxOffice Revenues/The Numbers - Domestic Box Office - Avatar.tsv" xmi:id="_3cpHiIpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_FieldSeparator" prompt="Movie_Avatar_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_3cpHiYpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_Encoding" prompt="Movie_Avatar_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="US-ASCII" xmi:id="_3cpHiopCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_RowSeparator" prompt="Movie_Avatar_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_3cpHi4pCEe624-5VvMURFw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_3cpHjIpCEe624-5VvMURFw">
+    <contextParameter comment="" name="Movie_Avatar_Header" prompt="Movie_Avatar_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_3cpHjYpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_File" prompt="Movie_Avatar_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="D:/dadabi/Final Project/IMDB/IMDB/TheNumbers - Moviewise Daily BoxOffice Revenues/The Numbers - Domestic Box Office - Avatar.tsv" xmi:id="_3cpHjopCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_FieldSeparator" prompt="Movie_Avatar_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_3cpHj4pCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_Encoding" prompt="Movie_Avatar_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="US-ASCII" xmi:id="_3cpHkIpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_RowSeparator" prompt="Movie_Avatar_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_3cpHkYpCEe624-5VvMURFw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Production" xmi:id="_3cpHkopCEe624-5VvMURFw">
+    <contextParameter comment="" name="Movie_Avatar_Header" prompt="Movie_Avatar_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_3cpHk4pCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_File" prompt="Movie_Avatar_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="D:/dadabi/Final Project/IMDB/IMDB/TheNumbers - Moviewise Daily BoxOffice Revenues/The Numbers - Domestic Box Office - Avatar.tsv" xmi:id="_3cpHlIpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_FieldSeparator" prompt="Movie_Avatar_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_3cpHlYpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_Encoding" prompt="Movie_Avatar_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="US-ASCII" xmi:id="_3cpHlopCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="Movie_Avatar_RowSeparator" prompt="Movie_Avatar_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_3cpHl4pCEe624-5VvMURFw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e431ee44-c5c7-4e3e-91d0-3c5ef852ef1f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iF/gHZ1qmzcusQv6DKBdstuwzbFPcFj9pf5e+tCeZr5lNKGc2sEd1e6YnU98eyCayFHAfTF/sP4V&#13;
+89tlGVN+lA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a0dc3fb6-b7d3-4683-9be0-7511254b20a7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bfrMDqRJiRPRYVvLI6F6QPnHvPqEspclOUuv6UFn2iIBmXEUZ+ssiP1HFXSfGQ3hVCZusaRUjB6k&#13;
+t7IjIudsmg==</DigestValue></Reference></SignedInfo><SignatureValue>g6tPPSi4insawMCOzAkHLizsKmenlQIvJOZsvPm9Xp8nOs2nLQWr0oxdqsd8N+AaXaV8CU1AbUrZ&#13;
+OSvJMcY2iXBi+b6adlKXe+W5ieZoi/kGfvgziNQjP6NKBL2DEgBx5ttL5sYSFVLu1vQOdPxIB8qY&#13;
+evkG+jHtifIqb2ougEtQFTE9cZlhNEsiaIIetOK0gXf1DBrl1o/Jrm2Opg2lEc2BfA6nOyKeUpm/&#13;
+rgI3DcsAjbvTT0lp+g6xoaMlewWGI5EdyevnZ1vLfbL8W8j4R9LWxOptW8NCj/x2HSEIIG+Tqss9&#13;
+SkSdviHF4ByVl7+xVEbGQLIf1h3FxCqQdrpXJg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a0dc3fb6-b7d3-4683-9be0-7511254b20a7" Target="#_e431ee44-c5c7-4e3e-91d0-3c5ef852ef1f"><Timestamp>2023-11-23 20:57:08</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

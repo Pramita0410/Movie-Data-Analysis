@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_xtlIYIpBEe624-5VvMURFw" label="IMDB_FinalProject_Grp13" description="" language="java" technicalLabel="IMDB_FINALPROJECT_GRP13" local="true" author="_xtlIYYpBEe624-5VvMURFw" productVersion="Talend Cloud Data Fabric-8.0.1.20230418_1502-patch" type="DQ" itemsRelationVersion="1.3">
+    <componentsSettings xmi:id="_E3CKwIvdEe6ok_E9WoAyCw" name="DI|tHashInput" family="Technical"/>
+    <componentsSettings xmi:id="_FIa1sIvdEe6ok_E9WoAyCw" name="DI|tHashOutput" family="Technical"/>
+    <migrationTask xmi:id="_xvB54IpBEe624-5VvMURFw" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_xtlIYYpBEe624-5VvMURFw" login="wakankar.s@northeastern.edu" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>

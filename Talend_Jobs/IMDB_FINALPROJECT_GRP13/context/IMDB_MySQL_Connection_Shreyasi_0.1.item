@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_KRUj8IpCEe624-5VvMURFw">
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Server" prompt="IMDB_MySQL_Connection_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_KRUj8YpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Database" prompt="IMDB_MySQL_Connection_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="imdb_src_movie" xmi:id="_KRUj8opCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Login" prompt="IMDB_MySQL_Connection_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Shreyasi" xmi:id="_KRUj84pCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Password" prompt="IMDB_MySQL_Connection_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:1SmBNxFXCQIkdAZCuNs+yV8rk8feAVzIuxJIWvC3p+rp653lnNMY" xmi:id="_KRUj9IpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Port" prompt="IMDB_MySQL_Connection_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_KRUj9YpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_AdditionalParams" prompt="IMDB_MySQL_Connection_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_KRUj9opCEe624-5VvMURFw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Development" xmi:id="_KRUj94pCEe624-5VvMURFw">
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Server" prompt="IMDB_MySQL_Connection_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_KRUj-IpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Database" prompt="IMDB_MySQL_Connection_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="imdb_src_movie" xmi:id="_KRUj-YpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Login" prompt="IMDB_MySQL_Connection_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Shreyasi" xmi:id="_KRUj-opCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Password" prompt="IMDB_MySQL_Connection_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:nFTUJ85APcJz7ssz9FYqVEQZdNuEaEzLcmxtQKESmffRMxhst8FQ" xmi:id="_KRUj-4pCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Port" prompt="IMDB_MySQL_Connection_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_KRUj_IpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_AdditionalParams" prompt="IMDB_MySQL_Connection_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_KRUj_YpCEe624-5VvMURFw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_KRUj_opCEe624-5VvMURFw">
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Server" prompt="IMDB_MySQL_Connection_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_KRUj_4pCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Database" prompt="IMDB_MySQL_Connection_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="imdb_src_movie" xmi:id="_KRUkAIpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Login" prompt="IMDB_MySQL_Connection_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Shreyasi" xmi:id="_KRUkAYpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Password" prompt="IMDB_MySQL_Connection_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:7xaOkhJ9ZKv7wIkKgApa0qbWKs/Yxg1aMOhm0vlRQQmRifsARl2X" xmi:id="_KRUkAopCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Port" prompt="IMDB_MySQL_Connection_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_KRUkA4pCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_AdditionalParams" prompt="IMDB_MySQL_Connection_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_KRUkBIpCEe624-5VvMURFw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Production" xmi:id="_KRUkBYpCEe624-5VvMURFw">
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Server" prompt="IMDB_MySQL_Connection_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" xmi:id="_KRUkBopCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Database" prompt="IMDB_MySQL_Connection_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="imdb_src_movie" xmi:id="_KRUkB4pCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Login" prompt="IMDB_MySQL_Connection_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Shreyasi" xmi:id="_KRUkCIpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Password" prompt="IMDB_MySQL_Connection_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:MTvkpgc6Dwhym0+fSM1moKvs5hbUUWutvwXMGRs7h0a/NlyJSLFm" xmi:id="_KRUkCYpCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_Port" prompt="IMDB_MySQL_Connection_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" xmi:id="_KRUkCopCEe624-5VvMURFw"/>
+    <contextParameter comment="" name="IMDB_MySQL_Connection_AdditionalParams" prompt="IMDB_MySQL_Connection_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_KRUkC4pCEe624-5VvMURFw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_87188790-45fb-4cec-b949-efec669746d8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3NewmKeHMj999nwgHMYmM0VTkstw0LxaGh5h0IZysm4Ij2333G2xJ9ODDTxIHM4AANCoPRrVDQi/&#13;
+8wm/AIPHgQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b7be4a24-ba79-4502-b2a0-172521b36b42"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IZg/bX2sqaJDB15KWoF1/mozHHujNa4OX9CZ6Ir7vfgwETVQX5oACmoByN82J464u/O53fPep94f&#13;
+6HiAsKjYyQ==</DigestValue></Reference></SignedInfo><SignatureValue>BM32brFaa3ePYekAh2uLtWRtoNOn7W1y215Hu7eYjPU+ZNEUokW6O7dIIUVMjYQbi4kZMTDcW/z7&#13;
+P0DkQkDxNedp7E3KpdpqtLdi+egoxmpszW4oAKlwmbSp1zz6CoHJ4WlHlnMj64ouBqzwtSxK6hr7&#13;
+zSZi7qaUO/FXi38L0/J27ey/YJnGynSFEaujbnogh7p5VVWA/okPVb3RqiVV0ZE56V/tlawld24v&#13;
+HOewPqjOyUsHaIhyIKSzOr3muwSO5g6szwEDq9Y7FY87L3CAqKZUea1QDCUSDyA67Mzu03OeI8AZ&#13;
+rBtq664E3oeaGBaZqXDVeSsQTLflJ6zW4lmw8A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b7be4a24-ba79-4502-b2a0-172521b36b42" Target="#_87188790-45fb-4cec-b949-efec669746d8"><Timestamp>2023-11-25 20:29:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
