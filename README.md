@@ -1,6 +1,6 @@
 # Movie Data Analysis
 
-The dashboards contain information about
+The dashboards contain information about the following:
 
 
 ## 🎬 Trend Analysis
